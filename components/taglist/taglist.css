@@ -1,0 +1,16 @@
+.taglist {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0em;
+}
+
+.taglist__item {
+  font-size: 0.8em;
+  display: inline-block;
+  background-color: #93c6d6;
+  margin: 0.3em 0.5em;
+  padding: 0.3em;
+  border-radius: 0.3em;
+}
