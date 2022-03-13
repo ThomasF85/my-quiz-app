@@ -5,20 +5,20 @@ export default {
   title: "Components/Taglist",
 };
 
-export const Small = () => `
-<div style="margin: rem; padding: 1em; background-color: white; height: 5em; width: 25em; border: 1px solid black; font-size: 0.6rem;">
+export const small = () => `
+<div style="margin: 1em; padding: 0 1em; background-color: white; height: 5em; width: 25em; border: 1px solid black; font-size: 0.6rem;">
 ${taglist}
 </div>
 `;
 
-export const Medium = () => `
-<div style="margin: rem; padding: 1em; background-color: white; height: 5em; width: 25em; border: 1px solid black;">
+export const medium = () => `
+<div style="margin: 1em; padding: 0 1em; background-color: white; height: 5em; width: 25em; border: 1px solid black;">
 ${taglist}
 </div>
 `;
 
-export const Large = () => `
-<div style="margin: rem; padding: 1em; background-color: white; height: 5em; width: 25em; border: 1px solid black; font-size: 1.6rem;">
+export const large = () => `
+<div style="margin: 1em; padding: 0 1em; background-color: white; height: 5em; width: 25em; border: 1px solid black; font-size: 1.6rem;">
     ${taglist}
 </div>
 `;

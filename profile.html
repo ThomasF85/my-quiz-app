@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="pages/template/page.css" />
+    <link rel="stylesheet" href="pages/profile/profile.css" />
+    <link rel="stylesheet" href="components/heading/heading.css" />
+    <link rel="stylesheet" href="components/navigation/navigation.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <header>
+      <p class="heading">Profile</p>
+    </header>
+    <main>
+      <section class="profile">
+        <div class="profile__image">
+          <img src="../../assets/thomas_foeldi.jpeg" alt="profile picture" />
+        </div>
+        <p class="profile__name">Thomas Földi</p>
+        <p class="profile__about">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ullam
+          sint nemo ut. Ratione, placeat soluta qui esse deleniti illo suscipit
+          minima molestias voluptatem ad, deserunt assumenda ut optio
+          dignissimos?
+        </p>
+        <section class="profile__skills">
+          <p>Skills</p>
+          <ul class="taglist">
+            <li class="taglist__item">HTML</li>
+            <li class="taglist__item">CSS</li>
+            <li class="taglist__item">Javascript</li>
+            <li class="taglist__item">React</li>
+            <li class="taglist__item">Some backend development</li>
+          </ul>
+        </section>
+        <button class="profile__logout button">Logout</button>
+      </section>
+    </main>
+    <footer>
+      <nav class="navigation">
+        <ul class="navigation__menu">
+          <li class="navigation__item">
+            <a class="navigation__link" href="index.html"
+              ><img
+                class="navigation__icon"
+                src="../../assets/home.png"
+                alt="Home"
+            /></a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="bookmarks.html"
+              ><img
+                class="navigation__icon"
+                src="../../assets/bookmark.png"
+                alt="Bookmarks"
+            /></a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="create.html"
+              ><img
+                class="navigation__icon"
+                src="../../assets/plus.png"
+                alt="Create"
+            /></a>
+          </li>
+          <li class="navigation__item navigation__item--highlighted">
+            <a class="navigation__link" href="profile.html"
+              ><img
+                class="navigation__icon"
+                src="../../assets/profile.png"
+                alt="Profile"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

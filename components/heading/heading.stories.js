@@ -5,20 +5,20 @@ export default {
   title: "Components/Heading",
 };
 
-export const Small = () => `
-<div style="height: 3rem; width: 15rem; border: 1px solid black; font-size: 0.6rem;">
+export const small = () => `
+<div style="height: 5em; width: 25em; border: 1px solid black; font-size: 0.6rem;">
     ${heading}
 </div>
 `;
 
-export const Medium = () => `
-<div style="height: 5rem; width: 25rem; border: 1px solid black;">
+export const medium = () => `
+<div style="height: 5em; width: 25em; border: 1px solid black;">
     ${heading}
 </div>
 `;
 
-export const Large = () => `
-<div style="height: 8rem; width: 40rem; border: 1px solid black; font-size: 1.6rem;">
+export const large = () => `
+<div style="height: 5em; width: 25em; border: 1px solid black; font-size: 1.6rem;">
     ${heading}
 </div>
 `;

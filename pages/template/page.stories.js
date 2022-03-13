@@ -1,8 +1,8 @@
 import "./page.css";
-import page from "./page.html";
+import template from "./page.html";
 
 export default {
-  title: "Pages/Page",
+  title: "Pages/Template",
 };
 
-export const standard = () => page;
+export const page = () => template;

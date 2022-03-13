@@ -1,12 +1,14 @@
 @import "../taglist/taglist.css";
+@import "../button/button.css";
 
 .card {
   width: 80%;
-  border: 1px solid black;
+  border: 3px solid var(--secondary-color-dark);
   border-radius: 1em;
   margin: 3em auto;
   padding: 1em;
   position: relative;
+  background-color: white;
 }
 
 .card__heading {
@@ -15,20 +17,25 @@
   font-weight: bold;
 }
 
-.card__button {
-  font-size: 1em;
-  display: block;
-  margin: 0 auto;
-  border-radius: 1em;
-}
-
-.card__button:hover {
-  background-color: #93c6d6;
-}
-
 .card__bookmark {
-    height: 3em;
-    position: absolute;
-    top: -1.5em;
-    right: 10%;
+  height: 3em;
+  position: absolute;
+  top: -1.5em;
+  right: 10%;
+}
+
+.card__bookmark:hover {
+  height: 4em;
+  position: absolute;
+  top: -2em;
+  right: 8%;
+  cursor: pointer;
+}
+
+.card__bookmark--checked {
+  content: url("../../assets/bookmark-black.png");
+}
+
+.card__answer--hidden {
+  display: none;
 }

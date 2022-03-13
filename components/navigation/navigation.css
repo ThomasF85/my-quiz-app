@@ -1,6 +1,6 @@
 .navigation {
   height: 100%;
-  background-color: #93c6d6;
+  background-color: var(--main-color);
 }
 
 .navigation__menu {
@@ -18,21 +18,22 @@
 }
 
 .navigation__item--highlighted {
-  background-color: #6bb1c7;
+  background-color: var(--main-color-dark);
 }
 
 .navigation__item:hover {
-  border: 0.3em solid white;
+  border: 0.5em solid var(--main-color-bright);
 }
 
 .navigation__link {
   display: block;
-  padding-top: 15%;
+  padding-top: 20%;
   height: 100%;
 }
 
 .navigation__icon {
   display: block;
-  height: 70%;
+  height: 60%;
   margin: 0 auto;
+  opacity: 0.75;
 }
