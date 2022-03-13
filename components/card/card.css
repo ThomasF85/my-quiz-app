@@ -2,10 +2,9 @@
 @import "../button/button.css";
 
 .card {
-  width: 80%;
+  width: 20em;
   border: 3px solid var(--secondary-color-dark);
   border-radius: 1em;
-  margin: 3em auto;
   padding: 1em;
   position: relative;
   background-color: white;
@@ -38,4 +37,8 @@
 
 .card__answer--hidden {
   display: none;
+}
+
+.card__button {
+  margin: 0 auto 0.5em auto;
 }

@@ -8,31 +8,31 @@ export default {
 };
 
 export const small = () => `
-<div style="margin: 2em; background-color: var(--secondary-color-bright); height: 30em; width: 25em; border: 1px solid black; font-size: 0.6rem;">
+<div style="font-size: 0.6rem;">
     ${card}
 </div>
 `;
 
 export const medium = () => `
-<div style="margin: 2em; background-color: var(--secondary-color-bright); height: 30em; width: 25em; border: 1px solid black;">
+<div>
     ${card}
 </div>
 `;
 
 export const large = () => `
-<div style="margin: 2em; background-color: var(--secondary-color-bright); height: 30em; width: 25em; border: 1px solid black; font-size: 1.6rem;">
+<div style="font-size: 1.6rem;">
     ${card}
 </div>
 `;
 
 export const withAnswer = () => `
-<div style="margin: 2em; background-color: var(--secondary-color-bright); height: 30em; width: 25em; border: 1px solid black;">
+<div>
     ${cardWithAnswer}
 </div>
 `;
 
 export const bookmarked = () => `
-<div style="margin: 2em; background-color: var(--secondary-color-bright); height: 30em; width: 25em; border: 1px solid black;">
+<div>
     ${cardBookmarked}
 </div>
 `;

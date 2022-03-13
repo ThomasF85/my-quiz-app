@@ -19,3 +19,7 @@
 .create__textarea--small {
   height: 2em;
 }
+
+.create__button {
+  margin: 0 auto;
+}

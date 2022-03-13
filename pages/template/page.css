@@ -50,3 +50,7 @@ footer {
     margin: 0 auto;
   }
 }
+
+.page__card {
+  margin: 3em auto;
+}
